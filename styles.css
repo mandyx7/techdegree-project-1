@@ -78,6 +78,12 @@ header .profile-image {
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg) translate(20px);
 }
+
+h2 {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
 .tag {
   background-color: #efefef;
   color: black;
@@ -119,11 +125,9 @@ header .profile-image:hover {
   margin: auto;
   padding: 20px 40px 40px;
   max-width: 1000px;
-  min-height: 1000px;
+  min-height: 600px;
   text-align: left;
   background: #fff;
-  position: relative;
-  width: 100%;
 }
 
 ul.skills {
@@ -142,6 +146,41 @@ ul.skills {
 
 .skills li:nth-child(odd) {
   background: #0399ff;
+}
+
+.heading {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-bottom: 4px solid #ccc;
+  display: inline-block;
+}
+
+.experience {
+  margin: 30px 30px;
+}
+
+.experience ul {
+  line-height: 1.5;
+  list-style-type: none;
+  padding-left: 25px;
+}
+
+.experience li {
+  margin-bottom: 18px;
+}
+
+h4 {
+  margin: 2px 0px;
+  color: gray;
+  font-size: 0.9em;
+}
+
+.heading-copy {
+  margin: 5px 0px;
+}
+
+.heading:hover {
+  border-color: #ff99ff;
 }
 
 footer {
