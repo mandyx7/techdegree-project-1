@@ -45,6 +45,7 @@ a:hover {
   margin-right: auto;
   color: white;
 }
+
 .nav li {
   padding: 5px 10px 10px 10px;
 }
@@ -57,7 +58,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url("images/hb.png") no-repeat top center;
+  background: url("images/hb.png") no-repeat center;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -69,12 +70,13 @@ header .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
-  border-radius: 50%;
+  border-radius: 10%;
   border: 3px solid white;
+  object-fit: cover;
   transition: all 0.5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.2) rotate(5deg) translate(20px);
 }
 .tag {
   background-color: #efefef;
@@ -84,6 +86,11 @@ header .profile-image:hover {
   display: table;
   margin: 10px auto;
 }
+
+.exp {
+  margin-top: 150px;
+}
+
 .location {
   background-color: #222;
   color: yellow;
@@ -100,6 +107,23 @@ header .profile-image:hover {
 }
 .card:hover {
   border-color: #ff99ff;
+}
+
+.card img {
+  width: 95%;
+  margin: auto;
+  border: 1px solid white;
+}
+
+.container {
+  margin: auto;
+  padding: 20px 40px 40px;
+  max-width: 1000px;
+  min-height: 1000px;
+  text-align: left;
+  background: #fff;
+  position: relative;
+  width: 100%;
 }
 
 ul.skills {
@@ -178,6 +202,10 @@ a.social:hover {
     margin: 0 auto;
   }
 
+  .card {
+    flex: 1;
+  }
+
   header {
     min-height: 470px;
   }
@@ -188,7 +216,7 @@ a.social:hover {
   }
 
   main {
-    padding-top: 20px;
+    /* padding-top: 20px; */
   }
 
   main p {
