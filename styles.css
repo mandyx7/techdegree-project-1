@@ -121,15 +121,6 @@ h2 {
   border: 1px solid white;
 }
 
-.container {
-  margin: auto;
-  padding: 20px 40px 40px;
-  max-width: 1000px;
-  min-height: 600px;
-  text-align: left;
-  background: #fff;
-}
-
 ul.skills {
   padding: 0;
   text-align: center;
@@ -155,17 +146,13 @@ ul.skills {
   display: inline-block;
 }
 
-.experience {
-  margin: 30px 30px;
-}
-
-.experience ul {
-  line-height: 1.5;
+.card ul {
+  line-height: 1.2;
   list-style-type: none;
   padding-left: 25px;
 }
 
-.experience li {
+.card li {
   margin-bottom: 18px;
 }
 
@@ -252,10 +239,6 @@ a.social:hover {
   .nav {
     max-width: 1200px;
     padding: 0 30px;
-  }
-
-  main {
-    /* padding-top: 20px; */
   }
 
   main p {
