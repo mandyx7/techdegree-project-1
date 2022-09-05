@@ -40,6 +40,12 @@ nav {
   padding: 0;
 }
 
+input,
+button {
+  display: block;
+  margin-top: 20px;
+}
+
 .nav .name {
   display: block;
   margin-right: auto;
